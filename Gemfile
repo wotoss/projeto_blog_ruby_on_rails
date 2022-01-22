@@ -1,11 +1,10 @@
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-#no projeto está sendo usado ruby 3.0.0
 ruby '2.7.4'
 
-# Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '~> 6.1.0'
+# Bundle edge Rails instead: gem 'rails', github: 'rails/rails', branch: 'main'
+gem 'rails', '~> 6.1.4', '>= 6.1.4.4'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3', '~> 1.4'
 # Use Puma as the app server
