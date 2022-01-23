@@ -6,7 +6,7 @@ class AuthorsController < ApplicationController
    #estou definindo que não será excultado require_login aqui na actions de minha controller
    #Lembrando que esta execulção estava vindo ApplicationController que esta sendo herdado
    #estou definindo quais action eu quero que não execulte. %i[ show edit update]
-   skip_before_action :require_login, %i[ show edit update]
+   #skip_before_action :require_login, %i[ show edit update]
 
   # GET /authors or /authors.json
   def index
